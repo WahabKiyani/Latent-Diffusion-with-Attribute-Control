@@ -1,0 +1,13 @@
+# Core Deep Learning
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+
+# Diffusion Models
+diffusers>=0.20.0
+transformers>=4.30.0
+accelerate>=0.20.0
+
+# Utilities
+numpy
+Pillow

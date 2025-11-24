@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+
+# Model files
+*.safetensors
+*.ckpt
+*.pth
+
+# OS
+.DS_Store
+Thumbs.db
