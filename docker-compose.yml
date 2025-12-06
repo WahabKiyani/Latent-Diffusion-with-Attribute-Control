@@ -1,3 +1,8 @@
+# ==============================================================================
+# Docker Compose Configuration
+# Simplifies deployment with proper GPU passthrough
+# ==============================================================================
+
 services:
   latent-diffusion-app:
     build:
@@ -21,6 +26,7 @@ services:
 
     # Volume mounts
     volumes:
+      - ./pretrained:/app/pretrained:ro
       - ./outputs:/app/outputs
 
     # Environment variables

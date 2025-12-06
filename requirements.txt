@@ -1,13 +1,53 @@
-# Core Deep Learning
-torch>=2.0.0
-torchvision>=0.15.0
-torchaudio>=2.0.0
+# ==============================================================================
+# Python Dependencies for Latent Diffusion with Attribute Control
+# Matched to actual installed versions in proj_venv
+# ==============================================================================
 
-# Diffusion Models
-diffusers>=0.20.0
-transformers>=4.30.0
-accelerate>=0.20.0
+# Core Deep Learning (CUDA 12.8)
+# Install with: pip install --upgrade --force-reinstall torch==2.9.1+cu128 torchvision==0.24.1+cu128 torchaudio==2.9.1+cu128 --index-url https://download.pytorch.org/whl/cu128
+torch==2.9.1
+torchvision==0.24.1
+torchaudio==2.9.1
 
-# Utilities
+# Memory-Efficient Attention
+xformers
+
+# Diffusion Models and Transformers
+diffusers>=0.35.2
+transformers>=4.57.0
+accelerate>=1.12.0
+
+# Computer Vision and Image Processing
+opencv-python
+mediapipe
+controlnet-aux
+
+# UI Framework
+gradio>=6.0.0
+
+# Configuration Management
+omegaconf
+
+# Model Utilities
+peft
+safetensors
+
+# Evaluation Metrics (add if not already installed)
+torchmetrics
+torch-fidelity
+scikit-image
+scipy
+
+# Super-Resolution (Phase 1 Proposal)
+basicsr
+realesrgan
+facexlib
+gfpgan
+
+# Utility Libraries
 numpy
+matplotlib
 Pillow
+
+# HuggingFace Hub
+huggingface-hub

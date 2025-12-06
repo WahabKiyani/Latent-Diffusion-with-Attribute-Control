@@ -2,14 +2,66 @@
 __pycache__/
 *.py[cod]
 *$py.class
-venv/
+*.so
+.Python
 env/
+venv/
+proj_venv/
+ENV/
+*.egg-info/
+dist/
+build/
 
-# Model files
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Model files (large)
 *.safetensors
 *.ckpt
 *.pth
+*.bin
+*.pt
+
+# HuggingFace cache
+.cache/
+transformers_cache/
+
+# Outputs (keep structure, ignore contents)
+outputs/results/*.png
+outputs/results/*.jpg
+outputs/metrics/*.json
+outputs/visualizations/*.png
+
+# Keep directories
+!outputs/results/.gitkeep
+!outputs/metrics/.gitkeep
+!outputs/visualizations/.gitkeep
+
+# Logs
+*.log
+logs/
 
 # OS
 .DS_Store
 Thumbs.db
+desktop.ini
+
+# Docker
+.dockerignore
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# Gradio
+gradio_cached_examples/
+flagged/
