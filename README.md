@@ -4,7 +4,7 @@
 **Instructor:** Dr. Akhtar Jamil  
 **Students:** Muhammad Abdul Wahab Kiyani (22i-1178), Syed Ahmed Ali Zaidi (22i-1237)
 
-**🔗 GitHub Repository:** [https://github.com/WahabKiyani/GenAI-Project](https://github.com/WahabKiyani/GenAI-Project)
+**🔗 GitHub Repository:** [https://github.com/WahabKiyani/GenAI-Project](https://github.com/WahabKiyani/Latent-Diffusion-with-Attribute-Control)
 
 ---
 
